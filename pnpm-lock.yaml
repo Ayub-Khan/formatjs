@@ -305,8 +305,8 @@ importers:
         specifier: ^1.4.2
         version: 1.4.2
       regexpu-core:
-        specifier: ^5.2.2
-        version: 5.2.2
+        specifier: ^6.0.0
+        version: 6.0.0
       rimraf:
         specifier: ^3.0.2
         version: 3.0.2
@@ -15610,6 +15610,13 @@ packages:
       regenerate: 1.4.2
     dev: true
 
+  /regenerate-unicode-properties@10.1.1:
+    resolution: {integrity: sha512-X007RyZLsCJVVrjgEFVpLUTZwyOZk3oiL75ZcuYjlIWd6rNJtOjkBwQc5AsRrpbKVkxN6sklw/k/9m2jJYOf8Q==}
+    engines: {node: '>=4'}
+    dependencies:
+      regenerate: 1.4.2
+    dev: true
+
   /regenerate-unicode-properties@9.0.0:
     resolution: {integrity: sha512-3E12UeNSPfjrgwjkR81m5J7Aw/T55Tu7nUyZVQYCKEOs+2dkxEY+DpPtZzO4YruuiPb7NkYLVcyJC4+zCbk5pA==}
     engines: {node: '>=4'}
@@ -15659,6 +15666,18 @@ packages:
       unicode-match-property-value-ecmascript: 2.1.0
     dev: true
 
+  /regexpu-core@6.0.0:
+    resolution: {integrity: sha512-ZOZKiuXx8X0IZLr3eyi5AfJd9Dg9YIdSNrxNKjx7V8kqIRf19NrmG2TLyUzzOLIoiMfbIqzw2LRGDxs51gLq9A==}
+    engines: {node: '>=4'}
+    dependencies:
+      regenerate: 1.4.2
+      regenerate-unicode-properties: 10.1.1
+      regjsgen: 0.8.0
+      regjsparser: 0.10.0
+      unicode-match-property-ecmascript: 2.0.0
+      unicode-match-property-value-ecmascript: 2.1.0
+    dev: true
+
   /registry-auth-token@4.2.2:
     resolution: {integrity: sha512-PC5ZysNb42zpFME6D/XlIgtNGdTl8bBOCw90xQLVMpzuuubJKYDWFAEuUNc+Cn8Z8724tg2SDhDRrkVEsqfDMg==}
     engines: {node: '>=6.0.0'}
@@ -15679,6 +15698,17 @@ packages:
 
   /regjsgen@0.7.1:
     resolution: {integrity: sha512-RAt+8H2ZEzHeYWxZ3H2z6tF18zyyOnlcdaafLrm21Bguj7uZy6ULibiAFdXEtKQY4Sy7wDTwDiOazasMLc4KPA==}
+    dev: true
+
+  /regjsgen@0.8.0:
+    resolution: {integrity: sha512-RvwtGe3d7LvWiDQXeQw8p5asZUmfU1G/l6WbUXeHta7Y2PEIvBTwH6E2EfmYUK8pxcxEdEmaomqyp0vZZ7C+3Q==}
+    dev: true
+
+  /regjsparser@0.10.0:
+    resolution: {integrity: sha512-qx+xQGZVsy55CH0a1hiVwHmqjLryfh7wQyF5HO07XJ9f7dQMY/gPQHhlyDkIzJKC+x2fUCpCcUODUUUFrm7SHA==}
+    hasBin: true
+    dependencies:
+      jsesc: 0.5.0
     dev: true
 
   /regjsparser@0.7.0:
